@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:green;
+    overflow: hidden;
+	margin-top: 20px;
+} 
+/* .Welcome {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 700;
+	position: relative;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	animation: moveBackAndForth 3s ease-in-out infinite;
+}
+@keyframes  moveBackAndForth {
+    0%, 100% { 
+      left: 0;
+      color: #000;
+    }
+
+    50% {
+        left: 100px;
+        color: #000;
+    }
+} */
+.signup{
+    text-align: center;
+    color: aliceblue;
+    
+}
+body{
+    background-color: #000;
+}
+
+form{
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: palegreen;
+	padding: 20px;
+    height: 110vh;
+	border-radius: 5px;
+	border: 1px solid black;
+    padding-left: 100px;
+	box-shadow:0 0 10px rgba (114,103,103,0.2);
+	margin-top: 30px;
+}
+
+.inputDiv {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+}
+.label-text {
+	color: grey;
+	font-size: 17px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.rela-input{
+	width: 70%;
+	height: 35px;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	
+	
+}
+.btn-ghost{
+	width: 70%;
+	height: 35px;
+	border: none;
+	background-color: black;
+	color: grey;
+	font-size: 18px;
+	border-radius:20px;
+	cursor: pointer;
+	
+}
+.btn-ghost:hover {
+	background-color:green;
+	color: white;
+}
+#dropdown {
+    width: 70%;
+	height: 35px;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;  
+    color:black; 
+}
+.long-text{
+    color: grey;
+}
+a {
+    text-decoration: none;
+    color: brown;
+}
+.logo{
+    width: 15%;
+    float: left;
+    margin: 10px 20px;
+    color:white;
+}
+
+.img-logo {
+    width: 30%;
+    height: 20%;
+    
+}

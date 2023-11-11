@@ -1,0 +1,48 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Thanks {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 25px;
+      cursor: pointer;
+  }
+  .Oluwa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+    
+  }
+  .take{
+    height: 30vh;
+    width: 45vh;
+  }
+  .give{
+    height: 30vh;
+    width: 45vh;
+  }
+  .ask{
+    height: 30vh;
+    width: 45vh;
+  }
+    body{
+      background-color: black;
+    }
+    .heading-primary{
+      font-size: 20px;
+      color: red;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .primary-heading{
+      text-align: center;
+      color:blue;
+      margin-top: 20px;
+    }
